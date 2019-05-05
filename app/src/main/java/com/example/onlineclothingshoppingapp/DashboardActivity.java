@@ -62,7 +62,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
 
         ItemsAdapter itemsAdapter = new ItemsAdapter(this,itemsList);
         recyclerView.setAdapter(itemsAdapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 1));
 
         btnAddItems = findViewById(R.id.btnAddItems);
         btnAddItems.setOnClickListener(this);
