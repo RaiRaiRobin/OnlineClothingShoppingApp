@@ -51,8 +51,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
                 String[] parts = line.split("->");
                 String image = parts[2];
                 int id= getResources().getIdentifier(image, "drawable", getPackageName());
-//                itemsList.add(new Items(parts[0], (parts[1]),parts[3],id));
-                itemsList.add(new Items(parts[0], parts[1], id));
+                itemsList.add(new Items(parts[0], parts[1], id, parts[3]));
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

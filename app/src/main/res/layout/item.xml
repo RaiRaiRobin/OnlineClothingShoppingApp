@@ -35,17 +35,18 @@
         android:layout_marginLeft="20dp"
         android:layout_toRightOf="@+id/itemImg" />
 
-    <!--<TextView-->
-        <!--android:id="@+id/itemDescription"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_below="@+id/itemImg"-->
-        <!--android:layout_marginStart="20dp"-->
-        <!--android:layout_marginTop="20dp"-->
-        <!--android:layout_toEndOf="@+id/itemImg"-->
-        <!--android:hint="Description"-->
-        <!--android:textSize="20sp"-->
-        <!--android:layout_marginLeft="20dp"-->
-        <!--android:layout_toRightOf="@+id/itemImg" />-->
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemImg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/itemImg"
+        android:hint="Description"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/itemImg" />
 
 </RelativeLayout>
